@@ -41,3 +41,9 @@ int CountLessThan(string[] input, int n)
 
     return count;
 }
+
+string[] AskArray()
+{
+    Write("Введите элементы массива через пробел: ");
+    return ReadLine().Split(" ");
+}
